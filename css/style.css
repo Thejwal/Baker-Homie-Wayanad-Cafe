@@ -52,24 +52,24 @@ body {
     width: 200px;
     max-width: 80vw;
     border-radius: 50%;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
     position: relative;
-    top: 10px; /* Move logo slightly down */
-    left: -5px; /* Adjust logo slightly to the left */
+    top: 10px;
+    left: -5px;
     background: black;
 }
 
 .hero-content h1 {
     font-size: 2.2rem;
     color: #2e4d34;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 .hero-content p {
     font-size: 1.3rem;
     max-width: 600px;
     line-height: 1.5;
-    text-shadow: 1px 1px 4px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
 }
 
 /* CTA Buttons */
@@ -100,24 +100,24 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     text-decoration: none;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
 }
 
 .map-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 10px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
 }
 
 /* Floating Icons (Instagram & WhatsApp) at Top Left */
 .float-wrapper {
     position: fixed;
-    left: 20px; /* Adjust to desired left position */
-    top: 20px;  /* Move to the top of the screen */
+    left: 20px;
+    top: 20px;
     transform: translateY(0);
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Increased gap for a better layout */
+    gap: 10px;
     z-index: 10;
 }
 
@@ -138,7 +138,6 @@ body {
     transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-
 /* Scroll Arrow */
 .arrow-down {
     width: 20px;
@@ -148,10 +147,9 @@ body {
     display: inline-block;
     padding: 5px;
     transform: rotate(45deg) translateY(-5px); /* Moves the arrow up slightly */
-    margin: 20px auto 0; /* spacing from previous element */
+    margin: 20px auto 0;
     animation: bounce 1.5s infinite;
 }
-
 
 /* Bounce animation */
 @keyframes bounce {
@@ -209,7 +207,7 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -243,7 +241,7 @@ body {
     top: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
@@ -288,7 +286,7 @@ footer {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: rgba(0,0,0,0.65);
+    background: rgba(0, 0, 0, 0.65);
     backdrop-filter: blur(5px);
     z-index: 9999;
     justify-content: center;
@@ -301,7 +299,7 @@ footer {
     width: 85vw;
     height: 90vh;
     background: #f4fff5;
-    box-shadow: 0 0 25px rgba(0,0,0,0.4);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
     border-radius: 15px;
     overflow: hidden;
     position: relative;
@@ -339,8 +337,8 @@ footer {
 /* Logo Wrapper */
 .logo-wrapper {
     width: 250px;
-    height: 250px
-background: black;
+    height: 250px;
+    background: black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -356,34 +354,34 @@ background: black;
 /* Responsive Styles */
 @media (max-width: 768px) {
     .logo-wrapper {
-        width: 200px; /* Adjust logo wrapper size on tablets */
-        height: 200px; /* Adjust logo wrapper size on tablets */
+        width: 200px;
+        height: 200px;
     }
     .hero-content img.logo-blend {
-        width: 150px; /* Adjust logo size */
+        width: 150px;
         padding: 10px;
     }
     .hero-content p {
-        font-size: 1.1rem; /* Adjust font size */
+        font-size: 1.1rem;
     }
     .slide-service {
-        flex: 0 0 48%; /* Adjust slide size */
+        flex: 0 0 48%;
     }
 }
 
 @media (max-width: 480px) {
     .logo-wrapper {
-        width: 150px; /* Adjust logo wrapper size on mobile */
-        height: 150px; /* Adjust logo wrapper size on mobile */
+        width: 150px;
+        height: 150px;
     }
     .hero-content img.logo-blend {
-        width: 120px; /* Make the logo smaller on mobile */
+        width: 120px;
     }
     .hero-content p {
-        font-size: 1rem; /* Adjust font size */
+        font-size: 1rem;
     }
     .slide-service {
-        flex: 0 0 100%; /* Stack services on mobile */
+        flex: 0 0 100%;
     }
     .insta-float, .whatsapp-float {
         width: 50px;
@@ -406,13 +404,13 @@ background: black;
     position: relative;
     width: 100%;
     max-width: 500px;
-    height: 500px; /* enough to show most content */
+    height: 500px;
     margin: 0 auto;
-    overflow-y: auto; /* scroll inside iframe */
+    overflow-y: auto;
 }
 
 .instagram-wrapper iframe {
     width: 100%;
-    height: 500px; /* original embed height */
+    height: 500px;
     border: none;
 }
