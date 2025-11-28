@@ -360,6 +360,7 @@ footer {
     }
     .hero-content img.logo-blend {
         width: 150px; /* Adjust logo size */
+        padding: 10px;
     }
     .hero-content p {
         font-size: 1.1rem; /* Adjust font size */
