@@ -53,6 +53,9 @@ body {
     max-width: 80vw;
     border-radius: 50%;
     box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    position: relative;
+    top: 5px; /* Move logo slightly down */
+    left: -5px; /* Adjust logo slightly to the left */
 }
 
 .hero-content h1 {
@@ -163,10 +166,6 @@ body {
         padding: 4px;
     }
 }
-
-
-
-
 
 /* Product Slider */
 .product-slider {
@@ -335,11 +334,10 @@ footer {
 }
 
 /* Logo Wrapper */
-/* Logo Wrapper */
 .logo-wrapper {
     width: 250px;
-    height: 250px;
-    background: black;
+    height: 250px
+background: black;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -352,7 +350,7 @@ footer {
     border-radius: 50%;
 }
 
-/* Responsive */
+/* Responsive Styles */
 @media (max-width: 768px) {
     .logo-wrapper {
         width: 200px; /* Adjust logo wrapper size on tablets */
@@ -390,6 +388,7 @@ footer {
     }
 }
 
+/* Instagram Feed */
 .instagram-feed {
     text-align: center;
     margin: 40px 0;
@@ -414,5 +413,3 @@ footer {
     height: 500px; /* original embed height */
     border: none;
 }
-
-
